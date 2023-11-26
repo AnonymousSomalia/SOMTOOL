@@ -12,8 +12,8 @@ echo "|___|_| \_|____/ |_/_/   \_\_____|_____|___|_| \_|\____(_|_|_)"
 echo -e "installing..."
 sleep 5
 #update and upgrade before open the tool
-apt install lolcat
-pip2 install lolcat
+pkg install python-pip
+pip install lolcat
 termux-setup-storage
 clear
 pkg install figlet && apt install figlet
