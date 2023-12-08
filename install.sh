@@ -12,16 +12,10 @@ echo "|___|_| \_|____/ |_/_/   \_\_____|_____|___|_| \_|\____(_|_|_)"
 echo -e "installing..."
 sleep 5
 #update and upgrade before open the tool
-pkg install ruby-y
+pkg install figlet
+pkg install ruby
+pkg install openssl
 gem install lolcat
-pkg install python-pip
-pip install lolcat
-termux-setup-storage
-clear
-pkg install figlet && apt install figlet
-clear
-pkg install curl && pkg install curl
-clear
 figlet -f banner Termux-Api | lolcat
 sleep 3
 pkg install termux-api
@@ -34,12 +28,11 @@ pkg install w3m
 clear
 pkg install git
 clear
-apt  apt update && apt upgrade
-clear
 figlet -f banner installing Python,2,3. | lolcat
 apt install python2 python2 python3
 clear
 figlet -f banner bastet | lolcat
+sleep 3
 pkg install bastet
 clear
 figlet -f banner pacman4 | lolcat
@@ -82,6 +75,6 @@ figlet -f small DONE | lolcat
 sleep 3
 echo ""
 echo ""
-echo "Run  ( bash start.sh) " | lolcat
+echo "Run  ( bash start.sh ) " | lolcat
 echo ""
 echo ""
