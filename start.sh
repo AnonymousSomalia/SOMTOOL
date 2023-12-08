@@ -9,7 +9,7 @@ echo "   ▄▀▀▀█▄ ▄█▀▄ ▐█ ▌▐▌▐█· ▐█.▪ ▄
 echo "   ▐█▄▪▐█▐█▌.▐▌██ ██▌▐█▌ ▐█▌·▐█▌.▐▌▐█▌.▐▌▐█▌▐▌" | lolcat
 echo "    ▀▀▀▀  ▀█▄▀▪▀▀  █▪▀▀▀ ▀▀▀  ▀█▄▀▪ ▀█▄▀▪.▀▀▀" | lolcat
 echo "					   v 1.0.0" | lolcat
-echo "         Created and developed by SOM-HACKERS" | lolcat
+echo "         Created and developed by Anonymouse_Somalia" | lolcat
 cat <<- CAT
 ${ORANGE}
 CAT
