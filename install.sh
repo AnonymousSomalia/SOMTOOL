@@ -1,16 +1,15 @@
 #!/bin/bash
 clear
-# please Don't Copy All My Code ('.') only Educational Porpuse.
+# please Don't Copy  My Code ('.') only Educational Porpuse.
 sleep 1
-
-#Installing Pkg
+#Installing Pkgs
 echo " ___ _   _ ____ _____  _    _     _     ___ _   _  ____"
 echo "|_ _| \ | / ___|_   _|/ \  | |   | |   |_ _| \ | |/ ___|"
 echo " | ||  \| \___ \ | | / _ \ | |   | |    | ||  \| | |  _"
 echo " | || |\  |___) || |/ ___ \| |___| |___ | || |\  | |_| |_ _ _"
 echo "|___|_| \_|____/ |_/_/   \_\_____|_____|___|_| \_|\____(_|_|_)"
 echo -e "installing..."
-sleep 5
+sleep 3
 #update and upgrade before open the tool
 pkg install figlet
 pkg install ruby
@@ -25,8 +24,6 @@ pkg install sl
 pkg install libcaca
 pkg install cmatrix
 pkg install w3m
-clear
-pkg install git
 clear
 figlet -f banner installing Python,2,3. | lolcat
 apt install python2 python2 python3
