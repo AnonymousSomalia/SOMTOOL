@@ -95,7 +95,22 @@ then
 	sleep 1
 	read -p "ENTER THE CITY NAME : " CITY
 	echo ""
-	sleep 1
+	echo ""
+        echo ""
+        read -p '┏╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼┑
+┃╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼┃CHOOSE NUMBER ┃╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼┃
+┃╼[99]⑆ Back.                                             ┃
+┗╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼┛
+
+
+
+┃━━━━━━━━━⊳' userinput2;
+
+        if [ "${userinput2:-}" = "99" ]
+                then
+                clear
+                bash OtherTool.sh
+        fi
 	echo "THE CITY NAME IS $CITY " | lolcat
 	sleep 1
 	curl wttr.in/ $CITY
